@@ -14,7 +14,7 @@ def create_animal(data: Optional[Animal]):
     if data:
         my_animals.append(data)
         return {
-            'mensagem': 'Animal criado com sucesso'
+            'mensagem': 'Animal criado com sucesso na v2'
         }
     return {
         'mensagem': 'Dados vazios'
